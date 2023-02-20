@@ -1,0 +1,10 @@
+:root {
+  --color: #0c0b2e;
+  --color-light: #0e0b5e;
+}
+
+label,
+button,
+a {
+  cursor: pointer;
+}

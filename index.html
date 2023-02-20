@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Secure Static Chat</title>
+
+    <script src="https://unpkg.com/just-jsx"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="root.css" />
+    <style type="text/tailwindcss">
+      @layer components {
+        .center {
+          @apply grid place-items-center;
+        }
+      }
+    </style>
+  </head>
+  <body class="center h-screen grid-flow-col grid-cols-2 text-[var(--color)]">
+    <main class="w-full h-full center">
+      <header>
+        <h1 class="text-2xl font-semibold">Secure Static Chat App</h1>
+        <p>ok its not that secure but its the best I can do</p>
+      </header>
+      <footer class="center">
+        <div class="center grid-flow-col gap-10">
+          <a href="https://github.com/ephf/secure-static-chat" target="_blank">
+            <img src="https://img.icons8.com/ios-glyphs/128/null/github.png" />
+          </a>
+          <a href="https://icons8.com" target="_blank">
+            <img
+              src="https://img.icons8.com/color/128/null/icons8-new-logo.png"
+            />
+          </a>
+        </div>
+      </footer>
+    </main>
+    <script src="render.js" from="Login.js"></script>
+  </body>
+</html>
